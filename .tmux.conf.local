@@ -210,7 +210,7 @@ tmux_conf_theme_mode_bg=$nord13                       # yellow
 tmux_conf_theme_mode_attr='bold'
 
 # status line style
-tmux_conf_theme_status_fg=$nord4                     # light gray
+tmux_conf_theme_status_fg=$nord1                     # light gray
 tmux_conf_theme_status_bg=$nord1                     # dark gray
 tmux_conf_theme_status_attr='none'
 
@@ -312,7 +312,7 @@ tmux_conf_theme_right_separator_sub='\uE0B3'
 
 #   ﲵ            ﮊ ﮏ ♥ ﰸ ﯅  
 tmux_conf_theme_status_left='  #S '
-tmux_conf_theme_status_right='#{prefix}#{pairing}#{synchronized}#{?battery_bar, #{battery_bar},}#{?battery_percentage, #{battery_percentage},} | %b%d日| %R | #{username}#{root} | ﯅#{hostname} '
+tmux_conf_theme_status_right='#{prefix}#{pairing}#{synchronized}#{?battery_bar, #{battery_bar},}#{?battery_percentage, #{battery_percentage},} | %b%d日 | %R | #{username}#{root} | ﯅#{hostname} '
 
 # status left style
 tmux_conf_theme_status_left_fg=$nord5 # '#e4e4e4,#e4e4e4,#e4e4e4'  # black, white , white
@@ -321,7 +321,7 @@ tmux_conf_theme_status_left_attr='bold,none,none'
 
 # status right style
 tmux_conf_theme_status_right_fg=$nord0,$nord6,$nord5,$nord4,$nord4
-tmux_conf_theme_status_right_bg=$nord1,$nord2,$nord10,$nord1,$nord0 # dark gray, red, white
+tmux_conf_theme_status_right_bg=$nord1,$nord2,$nord3,$nord1,$nord0 # dark gray, red, white
 tmux_conf_theme_status_right_attr='none,none,bold,none,none,none'
 
 # pairing indicator
